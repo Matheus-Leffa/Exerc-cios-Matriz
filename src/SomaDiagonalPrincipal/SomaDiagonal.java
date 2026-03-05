@@ -13,7 +13,7 @@ public class SomaDiagonal {
 
         for(int i = 0; i < matriz.length; i++){
             for(int j = 0; j < matriz[i].length; j++){
-                if(matriz[i] == matriz[j]){
+                if(i == j){
                     somaDiagonal += matriz[i][j];
                 }
             }
